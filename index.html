@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--CSS style-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <title>Efeito Parallax com Bootstrap5</title>
+
+</head>
+<body>
+    <header class="parallax-header">
+        <!--Container-->
+        <div class="container">
+            <div class="header-content">
+                <a href="#"><img src="img/Eric Carvalho.png" width="200" class="d-block mx-auto"></a>
+                <div class="container glass">
+                    <h3 class="text-center text-light">Web Design Inspiration</h3>
+                </div>
+            </div>
+        </div>
+        <!--Fim do Container-->
+    </header>
+    <div class="container">
+        <div class="content row">
+            <!--Left Side-->
+            <div class="col-md-6 left">
+                <h1 class="primary-color">Parallax com Bootstrap5</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corrupti, enim quod corporis nam ut sed possimus repellendus obcaecati ea. Id doloremque ad quod minima ipsa sed pariatur deserunt itaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, totam. Fuga facilis aut minima. Officiis cumque delectus reiciendis similique recusandae tenetur, dolor nemo facilis expedita voluptas at, quos corrupti quia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse tenetur porro at sint mollitia soluta nemo error omnis obcaecati, inventore corporis quaerat voluptatem quas reiciendis natus. Deserunt, expedita! Natus, voluptatibus.</p>
+            </div>
+            <!--Fim Left Side-->
+
+            <!--Right Side-->
+            <div class="col-md-6 right">
+                <img src="img/banner-1.jpg" class="w-100">
+            </div>
+            <!--Fim Right Side-->
+
+            <!--Bottom Side-->
+            <div class="col-12 bottom">
+                <p class="text-justify text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora minus, accusantium at inventore cumque iste illum veniam repellat molestias pariatur mollitia labore saepe consequuntur nisi dolor doloribus animi? Assumenda, nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit perferendis cum, incidunt optio nostrum accusantium numquam possimus, deserunt, cumque molestias aliquid facilis totam magnam eligendi ad dolores itaque distinctio earum?</p>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p> 2021 Eric Carvalho &copy;</p>
+    </footer>
+
+    <!--Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!--Icons Script-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
