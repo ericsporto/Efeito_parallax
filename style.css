@@ -10,6 +10,25 @@
     background-size: cover;
 }
 
+.nav-container {
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    padding: 30px;
+}
+
+.nav-container a {
+    color:#fff;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.nav-container a:hover {
+    color:#004fff;
+}
+
 .header-content {
     padding: 100px 0 150px 0;
 }
@@ -56,7 +75,7 @@
 }
 .content .bottom {
     background: #004fff;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .primary-color {
@@ -156,6 +175,7 @@ footer .wave#wave3 {
     opacity: 0.2;
     bottom: 15px;
     animation: animateWave 3s linear infinite;
+    
 }
 
 footer .wave#wave4 {
